@@ -1,0 +1,156 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .adminCounts.stskn .adminCountsLeft .adcBlk {
+        padding: 18px;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .dashRight { 
+        padding: 30px 20px;
+    }
+    .adminCounts { 
+        flex-wrap: wrap;
+    }
+    .adminCounts .adminCountsRight {
+        margin-left: 0px; 
+        margin-top: 20px; 
+    }
+    .adminCounts .adminCountsLeft { 
+        width: 100%;
+        justify-content: center;
+    }
+    .adminCounts.stskn {
+        margin-top: 50px;
+    }
+
+
+
+
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .dashRight { 
+        padding: 30px 20px;
+        padding-left: 70px;
+    }
+    .adminCounts { 
+        flex-wrap: wrap;
+    }
+    .adminCounts .adminCountsRight {
+        margin-left: 0px; 
+        margin-top: 20px; 
+    }
+    .adminCounts .adminCountsLeft { 
+        width: 100%;
+        justify-content: center;
+    } 
+    .dasboard-area.adm1 { 
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .dashRight-main-wrps {
+        display: flex;
+    }
+    
+    .dashRight-main-wrps .clndr {
+        width: 330px;
+    }
+    .adminCounts.stskn {
+        margin-top: 50px;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .dashRight { 
+        padding: 30px 20px;
+        padding-left: 70px;
+    }
+    .adminCounts { 
+        flex-wrap: wrap;
+    }
+    .adminCounts .adminCountsRight {
+        margin-left: 0px; 
+        margin-top: 20px; 
+    }
+    .adminCounts .adminCountsLeft { 
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    } 
+    .dashLeft-content .title {
+        margin-bottom: 30px;
+    }
+    .dasboard-area.adm1 { 
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    } 
+    .dashLeft { 
+        padding: 40px 20px 40px 60px;
+    }
+    .sideNotifs {
+        max-height: 210px; 
+    }
+    .dashLeft-content .title h5 { 
+        font-size: 14px; 
+        margin-bottom: 10px;
+    }
+    .dashLeft-content .title h2 {
+        font-size: 28px;
+        line-height: 38px; 
+    }
+    .adminCounts.stskn {
+        margin-top: 50px;
+    }
+    .wkNms { 
+        padding: 15px;
+    }
+    .m-sdl-blk{
+        display: block;
+    }
+    .m-sdl-blk a {
+        margin-bottom: 18px;
+        display: block;
+    }
+    
+    .m-sdl-blk a span {
+        margin-bottom: 0px;
+    }
+    
+    .m-sdl-blk a:last-child {
+        margin: 0;
+    }
+    .adminCounts.stskn .adminCountsLeft .adcBlk {
+        padding: 20px;
+    }
+
+
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
+/* Big screen :1200px. */
+@media (max-width: 1150px) {
+    .dashRight { 
+        /* position: absolute;
+        right: 0;
+        top: 0;
+        margin-right: -400px;
+        width: 380px; */
+    }
+
+}
