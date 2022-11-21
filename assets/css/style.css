@@ -3227,6 +3227,7 @@ td.contentOnThis:after {
   overflow: hidden;
   margin-top: 16px;
   margin-right: 24px;
+  position: relative;
 }
 .schedule_tble table tbody tr td:last-child .schdBlk {
   margin-right: 0;
@@ -3817,5 +3818,16 @@ form.tijdsblokken .multiselect-dropdown .multiselect-dropdown-list > div:before 
 /* Lessons page css END && Settings PAGE css STARTED */
 /* Lessons page css END && Settings PAGE css STARTED */
 /* Lessons page css END && Settings PAGE css STARTED */
+.disabled_blk { 
+  background: #dfdfdf60;
+}
 
-
+.backSoftYlw{
+  background: #ffb427;
+}
+.backSoftGreen{
+  /* background: #3dbe57; */
+}
+.backSoftRed{
+  background: red;
+}

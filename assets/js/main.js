@@ -63,30 +63,7 @@
             }
         }  
     });
-
-    // Added value on the input 
-    function AddValueOFInput() { 
-        // Select the target node
-        if (document.querySelectorAll('.slider-time').length > 0) {
-            
-            var targeTime = document.querySelector('.slider-time')
-            var targeTime2 = document.querySelector('.slider-time2') 
-
-            $("body").on('DOMSubtreeModified', {targeTime,targeTime2}, function(e) {
-                if (6 > e.target.innerHTML.length ) {
-                    let selectInput = e.target.parentElement.querySelector('[type="hidden"]')
-                    if (e.target.classList.contains('slider-time')) {
-                        selectInput.value = e.target.innerHTML +" - "+ e.target.parentElement.querySelector('.slider-time2').innerHTML
-                    }else if(e.target.classList.contains('slider-time2')){
-                        selectInput.value = e.target.parentElement.querySelector('.slider-time').innerHTML +" - "+ e.target.innerHTML
-                    }
-
-                }
-            });
-
-        }
-    }
-    AddValueOFInput()
+ 
     
     // SHow has url when open tag popup
     function ShowPopupWithHashId() { 
